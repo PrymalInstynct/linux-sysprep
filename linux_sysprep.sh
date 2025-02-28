@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to stop a service if it exists
+# Function to stop a service if it exists and is running
 stop_service() {
     if systemctl is-active --quiet "$1" && systemctl is-enabled --quiet "$1"; then
         systemctl stop "$1"

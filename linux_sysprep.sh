@@ -99,7 +99,7 @@ elif [[ -f /etc/redhat-release ]]; then
     fi
 fi
 
-echo "Finalizing preparation: System prepared for VM template conversion."
+echo "System prepared for VM template conversion."
 
 # Schedule system shutdown
 echo "Shutting down the system immediately"
